@@ -1,8 +1,79 @@
-html {
-  text-size-adjust: 100%;
+.main-page-title {
+  color: #595959;
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.5em;
 }
 
-body {
+.main-page-title h1 {
   margin: 0;
-  font: 16px / 1 sans-serif;
+}
+.main-page-title p {
+  margin: 0em;
+  padding: 0em 6em;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+nav {
+  background-color: #81D8D0;
+  border-radius: .2em;
+  margin-top: 0;
+}
+ul {
+  display: flex;
+  border-top: .20em solid #5a9791;
+  justify-content: space-around;
+  list-style-type: none;
+  margin:0em 5em;
+  padding:1.2em;
+}
+
+li:first-child{
+  font-family: 'Coiny', cursive;
+}
+
+li{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section.gallery {
+  display: flex;
+  flex-basis: auto;
+  max-width: 51em;
+  margin: 0 auto;
+}
+
+.flex {
+  flex-grow: 1;
+}
+
+section.bottom {
+  max-width: 55em;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+section.bottom div.message {
+  flex-direction: column;
+  /*text-align: center*/
+  flex: 1;
+  padding: 0 1em;
+}
+
+section.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+div.message h3 {
+  font-size: 1.3em;
+  color:#5a9791;
+
+}
+
+section.bottom a{
+  text-decoration: none;
+  color: #5a9791;
 }
